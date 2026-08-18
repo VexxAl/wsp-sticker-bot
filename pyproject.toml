@@ -1,0 +1,14 @@
+[project]
+name = "wsp-sticker-bot"
+version = "0.1.0"
+description = "Bot for creating stickers from images and videos in WhatsApp using the Meta API and n8n."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+wsp-sticker-bot = "wsp_sticker_bot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
